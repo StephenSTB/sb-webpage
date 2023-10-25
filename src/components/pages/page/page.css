@@ -1,0 +1,38 @@
+
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.title{
+    font-size: 26pt;
+}
+
+.page-divider{
+    width: 100%;
+    border-top: 1px solid gray;
+}
+
+.page-date{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    color: gray;
+    font-size: 11pt;
+}
+
+.see-posts{
+    margin-right: 10px;
+    color: rgb(0, 162, 255);
+}
+
+.see-posts:hover{
+    text-decoration: underline;
+}
+
+.page-content{
+    text-align: left;
+}
+

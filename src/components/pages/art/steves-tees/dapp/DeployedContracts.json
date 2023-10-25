@@ -1,0 +1,12 @@
+{
+    "Ganache": {
+        "MockUSDC": {
+            "address": "0xDb2d3e2ce051a6a50AD808f2b71ADaC88cc71a55",
+            "block": 560825
+        },
+        "StevesTees": {
+            "address": "0x0FFA6075d7eA61Eb5379EA45E491E166b06c6904",
+            "block": 560827
+        }
+    }
+}

@@ -1,0 +1,58 @@
+
+.divider{
+    height: 4px;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.links-box{
+    padding: 40px;
+    /*border: green 1px dashed;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.link{
+    color: rgb(0, 162, 255);
+}
+
+.link:hover, .redirect:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.entry{
+    /*border: 1px green solid;*/
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.entry-space{
+    min-height: 10px;
+    max-height: 10px;
+}
+
+.redirect{
+    color: rgb(0, 162, 255);
+    font-size: 20pt;
+}
+
+.entry-link{
+    font-weight: normal;
+}
+
+.date{
+    font-size: 11pt;
+}
+
+
+/* Desktop */
+@media screen and (min-width: 900px) {
+    .front-header{
+        font-size: 26pt;
+    }
+}
+
+

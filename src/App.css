@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+}
+
+.root {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /*border: solid 1px blue;*/
+  width: 100vw;
+}
+
+.App{
+  height: 100vh;
+  /*border: solid 1px black;*/
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.toggle-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#toggle{
+  margin-right: 10px;
+}
+
+.dark{
+  background-color: #202020;
+  color: #54c18a;
+}
+
+
+/* Desktop */
+@media screen and (min-width: 900px) {
+  /* width */
+	::-webkit-scrollbar {
+		width: 10px;
+	}
+
+  .App{
+    padding-top: 35px;
+    width: 700px;
+  }
+
+}
+
+/*Mobile*/
+@media screen and (max-width: 900px) 
+{
+  /* width */
+	::-webkit-scrollbar {
+		width: 7px;
+	}
+
+  .App{
+    padding-top: 10px;
+    width: 100vw;
+  }
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: rgb(50,50,50);
+	border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
